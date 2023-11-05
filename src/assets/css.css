@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.nav {
+    background-color: #212529;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.app::before {
+    content: '';
+    position: fixed;
+    background: url('wp8793897-marvel-black-and-white-wallpapers.jpg') repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.cards {
+    display: flex;
+    width: 85vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #334f4f;
+    margin: 10px auto;
+}
+
+.card {
+    width: 24%;
+    background-color: #6d757d;
+    margin: 10px 6px;
+    padding: 15px 5px 15px 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+.card img {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.card button {
+    margin: 10px auto;
+    padding: 5px 20px;
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    margin: 5px 30px 5px 5px;
+
+}
+a:link {
+    text-decoration: none;
+}
+
+input {
+    padding: 6px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.nav button {
+    padding: 6px;
+    background-color: #6d757d;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.left {
+    padding: 10px;
+}
