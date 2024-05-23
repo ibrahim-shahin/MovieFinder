@@ -29,7 +29,7 @@ body {
 .app::before {
     content: '';
     position: fixed;
-    background: url('wp8793897-marvel-black-and-white-wallpapers.jpg') repeat;
+    background: url('wallpapers.jpg') repeat;
     width: 100%;
     height: 100%;
     z-index: -1;
